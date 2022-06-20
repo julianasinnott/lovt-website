@@ -10,17 +10,24 @@
   font-weight: 400;
 }
 
+/* .container {
+  background: #E5E5E5;
+} */
+
 .website {
-  max-width: 1264px;
+  max-width: 698px;
+  box-shadow: 0px 2px 10px rgb(0 0 0 / 25%);
   background: #FFFFFF;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .website__header {
-  margin: 10px;
-  background: #FFFFFF;
+  margin-top: 4px;
   box-shadow: 0px 2px 10px rgb(0 0 0 / 25%);
-  padding: 12px 44px 12px 44px;
+  padding: 12px 44px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,8 +46,8 @@
 }
 
 .website__header__logo__text {
-  font-size: 10px;
-  line-height: 11px;
+  font-size: 0.625rem;
+  line-height: 0.6875rem;
   color: #AAAAAA;
 }
 
@@ -48,4 +55,105 @@
   background-image: url(./assets/menu.png);
   width: 18px;
   height: 12px;
+}
+
+.website__main {
+  padding-right: 44px;
+  padding-left: 44px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 38px;  
+}
+
+.website__main__principal-img {  
+  background-image: url(./assets/principal-img.png);
+  background-size: cover;
+  width: 100%;
+  height: 260px;
+  position: relative;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 110px;
+  left: 12px;
+}
+
+.arrow-left-vector {
+  position: absolute;
+  top: 120px;
+  left: 26px;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 110px;
+  right: 12px;
+}
+
+.arrow-right-vector {
+  position: absolute;
+  top: 120px;
+  right: 26px;
+}
+
+.website__main__prices-section {
+  display: flex;
+  gap: 96px;
+}
+
+.website__main__prices-section__left__img {
+  background-image: url(./assets/left-price-img.png);
+  width: 100%;
+  height: 144px;
+}
+
+.website__main__prices-section__right__img {
+  background-image: url(./assets/right-price-img.png);
+  width: 100%;
+  height: 144px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px 8px ; 
+  background: #EEEEEE;;
+}
+
+.price {
+  font-size: 1.5625rem;
+  line-height: 1.6875rem;
+  color: #888888;
+}
+
+.tag {
+  width: 56px;
+  height: 21px;  
+  border-radius: 10.5px;
+  font-size: 1.25rem;
+  line-height: 1.3125rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.website__main__prices-section__left__title__tag {
+  background: #51D275;
+}
+
+.website__main__prices-section__right__title__tag {
+  background: #DC9730;
+}
+.description {
+  background: #EEEEEE;
+  max-width: 256px; 
+}
+
+.description-text {
+  font-size: 0.625rem;
+  line-height: 0.6875rem;
+  text-align: justify;
+  color: #555555;
+  padding: 0 12px 10px 12px; 
 }
