@@ -9,18 +9,20 @@
   font-weight: 400;
 }
 
+body {
+  background: #E5E5E5;
+}
+
 .website {
   max-width: 698px;
-  box-shadow: 0px 2px 10px rgb(0 0 0 / 25%);
   background: #FFFFFF;
-  margin: 0 auto;
+  margin: 4px auto;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
 .website__header {
-  margin-top: 4px;
   box-shadow: 0px 2px 10px rgb(0 0 0 / 25%);
   padding: 12px 44px;
   display: flex;
@@ -96,7 +98,7 @@
 .website__main__prices-section {
   width: 100%;
   display: flex;
-  gap: 98px;
+  justify-content: space-between;
 }
 
 .website__main__prices-section__left__img {
@@ -139,6 +141,7 @@
 .website__main__prices-section__right__title__tag {
   background: #DC9730;
 }
+
 .description {
   background: #EEEEEE;
   max-width: 256px; 
@@ -186,14 +189,46 @@
 }
 
 .website__main__styles-section__styles__industrial {
-  background-image: url(./assets/industrial-img.png);  
+  background: url(./assets/industrial-img.png);  
 }
 
 .website__main__styles-section__styles__modern {
-  background-image: url(./assets/modern-img.png);
+  background: url(./assets/modern-img.png);
 }
 
 .website__main__styles-section__styles__classic {
-  background-image: url(./assets/classic-img.png);
+  background: url(./assets/classic-img.png);
 }
 
+.website__footer {
+  background: #333333;
+  padding: 40px 66px 40px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.website__footer__map {
+  background: url(./assets/map.png);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.website__footer__contact__text {
+  width: 26ch;
+  font-size: 0.75rem;
+  line-height: 1.625rem;
+  color: #FFFFFF;
+  padding-top: 2px;
+}
+
+.website__footer__contact__socialmedia {
+  font-size: 0.75rem;
+  line-height: 0.8125rem;
+  color: #FFFFFF;
+  padding: 12px 0 6px 0;  
+}
+
+.website__footer__contact__socialmedia-icons {
+  display: flex;
+  gap: 16px;
+}
