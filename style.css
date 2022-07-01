@@ -103,11 +103,13 @@ body {
 
 .website__main__prices-section__left__img {
   background-image: url(./assets/left-price-img.png);
+  background-repeat: no-repeat;
   height: 144px;
 }
 
 .website__main__prices-section__right__img {
   background-image: url(./assets/right-price-img.png);
+  background-repeat: no-repeat;
   height: 144px;
 }
 

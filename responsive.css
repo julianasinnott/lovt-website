@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    .website__header, .website__main {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .website__main__prices-section, .website__footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .website__footer {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .website__footer__map {
+        background-size: cover;
+        height: 12.6875rem;
+    }
+}
