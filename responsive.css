@@ -19,7 +19,7 @@
     }
 
     .website__footer__map {
-        background-size: cover;
-        height: 12.6875rem;
+        width: 252px;
+        height: 163px;
     }
 }
